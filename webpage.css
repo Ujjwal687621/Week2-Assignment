@@ -1,0 +1,168 @@
+*{
+    margin:0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left:200px;
+    padding-top: 20px;
+    font-size: 40px;
+}
+.button{
+    background-color: darkblue;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 15px 200px 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    padding: 20px 20px;
+}
+
+.button:hover{
+    background-color: blue;
+}
+
+.second-container{
+    height:500px;
+    display: flex;
+}
+
+.left{
+    width:35%;
+    margin-left:200px;
+    margin-top: 80px;
+}
+
+.heading{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:900;
+    font-size: 50px;
+}
+
+.description{
+    margin-top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: lightslategray;
+    font-size: 20px;
+}
+
+.second-button{
+    background-color: lightsalmon;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 20px 20px;
+}
+
+.second-button:hover{
+    background-color: salmon;
+}
+.right{
+    width:50%;
+}
+
+.third-container{
+    display: flex;
+    width:85%;
+    height:700px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.child{
+    height:250px;
+    width: 300px;
+}
+
+.first{
+    background-image: linear-gradient(salmon, orange);
+    margin-left:200px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px grey; 
+}
+.text{
+    color: white;
+    font-size: 35px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.others{
+    box-shadow: 0px 5px 5px grey;
+    border:1px solid whitesmoke;
+    border-radius: 10px; 
+}
+
+.except-this{
+    margin-left:200px;
+}
+
+.icon{
+    margin-left: 15px;
+    margin-top: -25px;
+}
+
+.heading2{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.description2{
+    font-size: 20px;
+    color: lightslategray;
+    margin:10px;
+}
+
+.link{
+    color: palevioletred;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.link:hover{
+    color: lightpink;
+}
+
+.footer{
+    background-color: darkblue;
+    height:150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo2{
+    color: white;
+    margin-left:200px;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.final-button{
+    background-image: linear-gradient(pink, purple);
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    margin: 30px 200px 50px;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 20px 20px;
+}
+
+
